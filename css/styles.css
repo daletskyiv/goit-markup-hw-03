@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -5,6 +11,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin: 0;
 }
 
 a {
@@ -14,6 +21,21 @@ a {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
 
 .logo {
@@ -109,4 +131,10 @@ ul {
 
 .logo-footer {
   color: #f4f4fd;
+}
+
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
