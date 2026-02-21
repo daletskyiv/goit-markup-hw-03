@@ -181,10 +181,9 @@ img {
 
 .nav-head .logo {
   margin-right: 76px;
-  padding: 24px 0;
 }
 
-.nav-list-item {
+.nav-list {
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -356,11 +355,14 @@ img {
   border-top: none;
   padding: 32px 16px;
   width: 360px;
-  margin-bottom: 8px;
 }
 
 .portfolio-list-item img {
   width: 360px;
+}
+
+.portfolio-card .title-three {
+  margin-bottom: 8px;
 }
 
 .footer {
