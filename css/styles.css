@@ -370,17 +370,9 @@ img {
   padding-bottom: 100px;
 }
 
-.footer .container {
-  display: flex;
-  flex-direction: column;
-}
-
-.logo {
-  display: inline-block;
-}
-
 .container .logo {
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .container .footer-text {
