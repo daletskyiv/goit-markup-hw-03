@@ -147,7 +147,7 @@ img {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .nav-head .logo {
@@ -158,12 +158,14 @@ img {
   gap: 0px;
   width: 115px;
   height: 24px;
+  margin-right: 76px;
 }
 
 .page-header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .container .nav-head {
@@ -172,10 +174,10 @@ img {
   justify-content: flex-start;
   flex-direction: row;
   gap: 76px;
-  padding: 24px;
+  padding: 24px 0;
 }
 
-.address ul {
+.address .address-info {
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -188,17 +190,18 @@ img {
   justify-content: center;
   flex-direction: column;
   gap: 48px;
-  padding: 188px 472px;
+  padding: 188px 0;
 }
 
 .container .title {
-  width: 496px;
+  max-width: 496px;
 }
 
 .container .button {
   border-radius: 4px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
+  border: none;
 }
 
 .container .visually-hidden {
@@ -219,7 +222,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 120px 156px;
+  padding: 120px 0;
 }
 
 .container .advantages-list {
@@ -239,15 +242,22 @@ img {
   height: 104px;
 }
 
+.advantages-list-item .title-three {
+  margin-bottom: 8px;
+}
+
 .team-section .container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 120px 156px;
+  padding: 120px 0;
   gap: 72px;
 }
 
+.container .title-two {
+  margin-bottom: 72px;
+}
 .container .team-background-list {
   display: flex;
   align-items: center;
@@ -264,11 +274,24 @@ img {
   gap: 32px;
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px;
-  width: 264px;
+  width: calc((100% - 72px) / 4);
   box-shadow:
     0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.team-background .name-position {
+  padding: 32px 0;
+}
+
+.name-position .title-three {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.name-position .paragraph-text {
+  text-align: center;
 }
 
 .portfolio .container {
@@ -276,14 +299,19 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 120px 156px;
+  padding: 120px 0;
   gap: 72px;
+}
+
+.container .title-two {
+  margin-bottom: 72px;
 }
 
 .container .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-list .portfolio-list-item {
@@ -296,11 +324,11 @@ img {
   justify-content: center;
   flex-direction: column;
   gap: 8px;
-  border-bottom: 1px solid var(--cornflower);
-  border-left: 1px solid var(--cornflower);
-  border-right: 1px solid var(--cornflower);
+  border: 1px solid #e7e9fc;
+  border-top: none;
   padding: 32px 16px;
   width: 360px;
+  margin-bottom: 8px;
 }
 
 .portfolio-list-item img {
@@ -310,8 +338,13 @@ img {
 .footer .container {
   display: flex;
   flex-direction: column;
-  padding: 100px 156px;
+  padding: 100px 0;
   gap: 16px;
+}
+
+.container .logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .container .footer-text {
