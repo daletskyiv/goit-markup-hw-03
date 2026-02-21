@@ -308,4 +308,12 @@ img {
 }
 
 .footer .container {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 156px;
+  gap: 16px;
+}
+
+.container .footer-text {
+  width: 264px;
 }
