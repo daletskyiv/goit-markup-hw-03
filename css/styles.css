@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
   font-size: 16px;
@@ -46,7 +46,7 @@ img {
 
 .logo {
   color: #4d5ae5;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -58,8 +58,8 @@ img {
   color: #2e2f42;
 }
 
-.nav-list:hover,
-.nav-list:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -92,15 +92,13 @@ img {
   font-weight: 700;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.02em;
 }
 
 .button {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #ffffff;
   font-weight: 500;
   background-color: #4d5ae5;
-  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
@@ -115,7 +113,6 @@ img {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
 }
@@ -125,7 +122,6 @@ img {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 
 .team-section {
@@ -158,14 +154,13 @@ img {
   gap: 0px;
   width: 115px;
   height: 24px;
-  margin-right: 76px;
 }
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.page-header .container {
+.header-conainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -177,10 +172,6 @@ img {
   justify-content: flex-start;
   flex-direction: row;
   gap: 76px;
-}
-
-.nav-head .logo {
-  margin-right: 76px;
 }
 
 .nav-list {
@@ -346,11 +337,6 @@ img {
 }
 
 .portfolio-list-item .portfolio-card {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
-  gap: 8px;
   border: 1px solid #e7e9fc;
   border-top: none;
   padding: 32px 16px;
@@ -371,10 +357,10 @@ img {
 }
 
 .container .logo {
-  margin-bottom: 16px;
   display: inline-block;
 }
 
 .container .footer-text {
   width: 264px;
+  padding-top: 16px;
 }
